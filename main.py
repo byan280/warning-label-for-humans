@@ -1,14 +1,21 @@
-# Warning Label for Humans: One Line, Big Laugh
-#
-# Real warning labels list hazards in dry, official language.
-# This one treats a familiar human pattern as a product
-# hazard: the burst of enthusiasm for a new hobby, the full
-# kit bought on day one, and the whole thing abandoned by
-# Tuesday. The three-beat escalation does the comic work.
-# Keeping the wording flat and bureaucratic makes the
-# confession funnier than any exclamation mark would.
-# The output stays fixed: one print, no input, no randomness,
-# so the result is identical on every machine and every run.
-# Run it with: python3 main.py
-# Side effects include a garage full of unused equipment.
-print("WARNING: Contents may spontaneously start a new hobby, buy all the equipment, and quit by Tuesday.")
+# warning-label-for-humans: round 3 entry.
+# A warning label for a very common human behavior.
+# The hazard is not physical. It is conversational.
+# Dream retellings have no off switch either.
+# One line out, nothing else.
+# Round 3: written fresh in this session, verified deterministic.
+
+
+def main():
+    # The label text, written out in full below.
+    label = "WARNING: "
+    # The specific behavior being warned about.
+    behavior = (
+        "This human will describe last night's dream in full detail "
+        "and will not notice that nobody asked."
+    )
+    print(label + behavior)
+
+
+if __name__ == "__main__":
+    main()
