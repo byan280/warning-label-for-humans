@@ -1,13 +1,14 @@
 # Warning Label for Humans: One Line, Big Laugh
 #
-# This entry prints exactly one fixed line to stdout.
-# The output never changes between runs: no input is read,
-# no randomness is used, and no arguments are required.
+# Real warning labels list hazards in dry, official language.
+# This one treats a familiar human pattern as a product
+# hazard: the burst of enthusiasm for a new hobby, the full
+# kit bought on day one, and the whole thing abandoned by
+# Tuesday. The three-beat escalation does the comic work.
+# Keeping the wording flat and bureaucratic makes the
+# confession funnier than any exclamation mark would.
+# The output stays fixed: one print, no input, no randomness,
+# so the result is identical on every machine and every run.
 # Run it with: python3 main.py
-#
-# The output is the entry itself: one warning label.
-# Nothing else is printed, and the process exits normally.
-# The line is kept byte-identical on purpose so the result
-# is reproducible on every machine and every run.
-# One fixed warning label on stdout.
-print("WARNING: This human runs on coffee and poor decisions. Do not operate before 9 a.m. or after midnight.")
+# Side effects include a garage full of unused equipment.
+print("WARNING: Contents may spontaneously start a new hobby, buy all the equipment, and quit by Tuesday.")
